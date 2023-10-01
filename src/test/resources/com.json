@@ -1,0 +1,6 @@
+{
+"username":"admin",
+"password":"admin",
+"url":"http://rmgtestingserver:8888/",
+"browser":"chrome"
+}

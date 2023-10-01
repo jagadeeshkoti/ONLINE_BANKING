@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Suite">
+  <test thread-count="1" parallel="tests" name="Test">
+	  <groups>
+		  <run>
+			  <exclude name="system"></exclude>
+		  </run>
+	  </groups>
+    <classes>
+      <class name="com.bankingsoftcode.FundTransferAndCheckViewCust"/>
+      <class name="com.bankingsoftcode.CreditTest"/>
+      <class name="com.bankingsoftcode.LoginToStaffLoginTest"/>
+      <class name="com.bankingsoftcode.ApplyForOpenAcTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
